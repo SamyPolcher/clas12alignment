@@ -244,6 +244,7 @@ public class HipoHandler {
             frame.setSize(1600, 1000);
             frame.add(canvas);
             frame.setLocationRelativeTo(null);
+            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setVisible(true);
         }
 
